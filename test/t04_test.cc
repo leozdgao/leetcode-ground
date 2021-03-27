@@ -8,7 +8,6 @@ TEST(LeetCode_04, findMedianSortedArrays) {
     vector<int> nums0_1 = { 1, 3 };
     vector<int> nums0_2 = { 2 };
     double r0 = t04::findMedianSortedArrays(nums0_1, nums0_2);
-
     ASSERT_EQ(r0, 2);
 
     vector<int> nums1_1 = { 1, 2 };
