@@ -1,10 +1,8 @@
 #include <gtest/gtest.h>
-#include <gmock/gmock.h>
 #include <vector>
 #include "t04.h"
 
 using std::vector;
-using testing::ElementsAre;
 
 TEST(LeetCode_04, findMedianSortedArrays) {
     vector<int> nums0_1 = { 1, 3 };
