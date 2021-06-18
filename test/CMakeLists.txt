@@ -10,6 +10,7 @@ add_executable(test
     ../src/t05.cc t05_test.cc
     ../src/t34.cc t34_test.cc
     ../src/t69.cc t69_test.cc
+    ../src/t455.cc t455_test.cc
 )
 find_package(GTest CONFIG REQUIRED)
 target_link_libraries(test PRIVATE GTest::gmock GTest::gtest GTest::gmock_main GTest::gtest_main)
