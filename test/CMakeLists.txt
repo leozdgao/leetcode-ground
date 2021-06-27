@@ -9,6 +9,7 @@ add_executable(test
     ../src/t04.cc t04_test.cc
     ../src/t05.cc t05_test.cc
     ../src/t34.cc t34_test.cc
+    ../src/t53.cc t53_test.cc
     ../src/t69.cc t69_test.cc
     ../src/t376.cc t376_test.cc
     ../src/t455.cc t455_test.cc
